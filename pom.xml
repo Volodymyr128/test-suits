@@ -7,4 +7,25 @@
     <groupId>vbakh</groupId>
     <artifactId>testsuits</artifactId>
     <version>1.0</version>
+
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-remote-resources-plugin</artifactId>
+                <version>1.6.0</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>bundle</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <includes>
+                        <include>**/*.json</include>
+                    </includes>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>
