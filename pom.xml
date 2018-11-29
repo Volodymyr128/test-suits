@@ -22,7 +22,7 @@
                 </executions>
                 <configuration>
                     <includes>
-                        <include>**/*.json</include>
+                        <include>src/test/resources/suit-1.json</include>
                     </includes>
                 </configuration>
             </plugin>
