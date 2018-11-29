@@ -6,26 +6,5 @@
 
     <groupId>vbakh</groupId>
     <artifactId>testsuits</artifactId>
-    <version>1.0-SNAPSHOT</version>
-
-    <build>
-        <plugins>
-            <plugin>
-                <artifactId>maven-remote-resources-plugin</artifactId>
-                <version>1.6.0</version>
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>bundle</goal>
-                        </goals>
-                    </execution>
-                </executions>
-                <configuration>
-                    <includes>
-                        <include>src/test/resources/suit-1.json</include>
-                    </includes>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
+    <version>1.0</version>
 </project>
